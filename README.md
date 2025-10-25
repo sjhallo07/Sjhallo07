@@ -72,22 +72,10 @@ Python software developer with experience building backend services, data pipeli
 
 Example: Improved order processing speed by 40% (from 5s to 3s) for 2,000+ users/month; see implementation at [ecommerce-backend repo](https://github.com/sjhallo07/ecommerce-backend).
 
-### Professional Experience (Python emphasis)
 
-- [Job Title] — [Company] | [City] (YYYY — YYYY)
-  - Built and maintained Python services handling X requests/day; improved performance by Y% through profiling and optimizations.
   - Implemented CI/CD for Python projects using GitHub Actions and Docker, decreasing deployment time and rollback risk.
 
-- [Job Title] — [Company] | [City] (YYYY — YYYY)
-  - Integrated third-party APIs and automated data pipelines with Python scripts and scheduled jobs (Celery / Cron).
-
-Senior Full-Stack Engineer — Tech Solutions Inc., Valencia (2023 - 2025)
-- Built features used by 5,000+ users/month; reduced API latency by 30% through optimizations.
-- Led migration to containerized deployments and implemented CI/CD with GitHub Actions.
-
-Software Engineer — Innovatech, Caracas (2021 - 2023)
-- Implemented payment gateway integrations and redesigned product catalog, increasing conversion by 15%.
-
+- [
 ### Education
 
 - MSc, Computer Science — Heriot-Watt University (Online) — Intake: January 2026
