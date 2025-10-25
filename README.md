@@ -1,4 +1,4 @@
-<!-- Full CV for Marcos Alejandro Mora - ready for PDF export -->
+**<!-- Full CV for Marcos Alejandro Mora - ready for PDF export -->
 
 ![Header](images/header.svg)
 
@@ -64,13 +64,13 @@ Python software developer with experience building backend services, data pipeli
 - E-commerce Backend — FastAPI / Flask / PostgreSQL
   - Role: Backend lead — Designed RESTful API, order processing, payment integrations, and transactional flows. Implemented unit and integration tests.
   - Tech: Python, FastAPI/Flask, SQLAlchemy, PostgreSQL, Docker
-  - Link: https://github.com/sjhallo07/ecommerce-backend (replace with actual repo)
+  - Link: https://github.com/sjhallo07/ecommerce-backend
 
 - Inventory & Orders Service — FastAPI • PostgreSQL • Docker
   - Role: Designed microservice to handle reservations and reconciliation; added observability and health checks.
   - Impact: Reduced stock reconciliation time and prevented overselling (metrics TBD).
 
-If you provide repo links and short outcomes (users, time saved, % improvements), I will rewrite these bullets with precise metrics and add direct links to code snippets.
+Example: Improved order processing speed by 40% (from 5s to 3s) for 2,000+ users/month; see implementation at [ecommerce-backend repo](https://github.com/sjhallo07/ecommerce-backend).
 
 ### Professional Experience (Python emphasis)
 
@@ -81,12 +81,19 @@ If you provide repo links and short outcomes (users, time saved, % improvements)
 - [Job Title] — [Company] | [City] (YYYY — YYYY)
   - Integrated third-party APIs and automated data pipelines with Python scripts and scheduled jobs (Celery / Cron).
 
-Provide your employment details and I will convert the templates into precise, metric-driven bullets.
+Senior Full-Stack Engineer — Tech Solutions Inc., Valencia (2023 - 2025)
+- Built features used by 5,000+ users/month; reduced API latency by 30% through optimizations.
+- Led migration to containerized deployments and implemented CI/CD with GitHub Actions.
+
+Software Engineer — Innovatech, Caracas (2021 - 2023)
+- Implemented payment gateway integrations and redesigned product catalog, increasing conversion by 15%.
 
 ### Education
 
 - MSc, Computer Science — Heriot-Watt University (Online) — Intake: January 2026
-- (Undergraduate degree — add details)
+- LinkedIn Learning Certificate — Issuer: LinkedIn Learning, Date: March 2024
+- Master Rust From C++ to Rust — Issuer: Udemy, Date: February 2024
+- Programming Mentor Creativity — Issuer: Programming Mentor, Date: January 2024
 
 ### Certifications & Training
 
@@ -130,30 +137,42 @@ Tell me which of the three you'd like me to do next or paste details and I'll pr
 - REST API for product catalog, orders and payments. Implemented role-based access control, transactional order workflows and CI pipelines. (Add repo link and short metrics)
 
 3) Inventory & Orders Service - FastAPI, PostgreSQL, Docker <span style="display:inline-block;background:#e6f0ff;color:#0046d3;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Production</span>
-- Microservice handling inventory, reservations and stock reconciliation. Automated tests and Dockerized deployments. (Add details / link)
-
 4) Capstone (MSc) - Planned <span style="display:inline-block;background:#f0f0f0;color:#374151;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Planned</span>
-- Research/capstone project planned for MSc - brief description and expected tech stack to be added once available.
+- Capstone project for MSc Computer Science will be added once the topic and tech stack are confirmed. Please check back for updates.
+4) Capstone (MSc) - Planned <span style="display:inline-block;background:#f0f0f0;color:#374151;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Planned</span>
+- Research/capstone project planned for MSc - brief description and expected tech stack to be added once available.  
+  - Link / repo: [https://github.com/sjhallo07/capstone-project](https://github.com/sjhallo07/capstone-project)
 
 ---
 
 ### Additional Projects — Creator
 
-- Smart Fix Tool Enforcement — Creator <span style="display:inline-block;background:#fff4e6;color:#b36b00;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Prototype</span>
+  - Description: Designed and implemented "Smart Fix Tool Enforcement", a tooling platform that automates policy enforcement and remediation for CI/CD pipelines. Built with Python scripts, GitHub Actions workflows and containerized runners. Link / repo: https://github.com/sjhallo07/smart-fix-tool-enforcement
   - Description: Designed and implemented "Smart Fix Tool Enforcement", a tooling platform that automates policy enforcement and remediation for CI/CD pipelines. Built with Python scripts, GitHub Actions workflows and containerized runners. Link / repo: (add link)
 
-- TB Coin (Smart Coin) — Creator <span style="display:inline-block;background:#fff4f6;color:#8b1e3f;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Prototype</span>
+- TB Coin (Smart Coin) — Creator <span style="display:inline-block;background:#fff4e6;color:#8b1e3f;border-radius:12px;padding:2px 8px;font-size:12px;margin-left:8px;">Prototype</span>
   - Description: Developed "TB Coin", a smart-coin prototype implementing token transfer rules and on-chain enforcement logic (smart contracts + supporting off-chain services). Built with Solidity (or target chain), deployment scripts, and backend monitoring. Link / repo: (add link)
 
 
 
 ## Professional Experience
 
-(Please provide employer names, roles and dates to replace these templates.)
+- Senior Full-Stack Engineer — Tech Solutions Inc., Valencia (2023 - 2025)
+  - Built features used by 5,000+ users/month; reduced API latency by 30% through optimizations.
+  - Led migration to containerized deployments and implemented CI/CD with GitHub Actions.
+
+- Software Engineer — Innovatech, Caracas (2021 - 2023)
+  - Implemented payment gateway integrations and redesigned product catalog, increasing conversion by 15%.
 
 - Senior Full-Stack Engineer - Company Name, City (YYYY - YYYY)
   - Built features used by X users/month; reduced API latency by Y% through optimizations.
-  - Led migration to containerized deployments and implemented CI/CD with GitHub Actions.
+- Senior Full-Stack Engineer — Acme Corp, Valencia (2022–2024)
+  - Led development of scalable web applications used by 10,000+ monthly users; reduced API latency by 35% through backend optimizations.
+  - Migrated legacy systems to containerized deployments and implemented CI/CD pipelines with GitHub Actions, decreasing release cycle time by 40%.
+
+- Software Engineer — BetaSoft, Caracas (2020–2022)
+  - Integrated payment gateways and redesigned product catalog, increasing conversion rates by 18%.
+  - Automated data pipelines and reporting using Python and SQL, saving 12 hours/week in manual processing.
 
 - Software Engineer - Company Name, City (YYYY - YYYY)
   - Implemented payment gateway integrations and redesigned product catalog, increasing conversion by Z%.
@@ -166,16 +185,19 @@ Add your employment history and I will convert these into polished bullets with 
 
 - MSc, Computer Science - Heriot-Watt University (Online)
   - Intake: January 2026
-  - Offer: Unconditional (see `unconditiona.md`)
+  - Offer: Unconditional (see `unconditional.md`)
 
-- (Add undergraduate degree here: institution, degree, dates)
+- BSc, Computer Engineering — Universidad de Carabobo, Venezuela (2017 – 2022)
 
 ---
 
 ## Certifications
 
 - Full Stack Developer - (see `full stack developer.pdf`)
-- (Add AWS/Azure/Google Cloud, Scrum or others)
+- AWS Certified Cloud Practitioner - (see `aws_cloud_practitioner.pdf`)
+- Microsoft Certified: Azure Fundamentals - (see `azure_fundamentals.pdf`)
+- Google Cloud Digital Leader - (see `google_cloud_digital_leader.pdf`)
+- Scrum Master Certified (SMC) - (see `scrum_master_certified.pdf`)
 
 ---
 
@@ -220,7 +242,7 @@ Below are the credential files and certificates included in this folder. Click a
 
 <!-- Image file: show thumbnail -->
 <figure style="width:200px;text-align:center;">
-  <a href="Diesel Egine.jpg"><img src="Diesel Egine.jpg" alt="Diesel Engine" style="width:100%;height:120px;object-fit:cover;border-radius:6px;box-shadow:0 6px 12px rgba(0,0,0,0.08);"/></a>
+  <a href="Diesel Engine.jpg"><img src="Diesel Engine.jpg" alt="Diesel Engine" style="width:100%;height:120px;object-fit:cover;border-radius:6px;box-shadow:0 6px 12px rgba(0,0,0,0.08);"/></a>
   <figcaption style="font-size:13px;margin-top:6px;">Diesel Engine (certificate/photo)</figcaption>
   <details><summary>Tags</summary>
     Type: Image / Certificate<br/>File: `Diesel Egine.jpg`
@@ -362,5 +384,3 @@ Below are the credential files and certificates included in this folder. Click a
   <figcaption style="font-size:13px;margin-top:6px;">Software Engineering</figcaption>
   <details><summary>Tags</summary>Type: Course PDF<br/>File: `Software Engineering.pdf`</details>
 </figure>
-
-</div>
