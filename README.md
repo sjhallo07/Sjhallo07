@@ -107,15 +107,7 @@ Software Engineer — Innovatech, Caracas (2021 - 2023)
 
 ---
 
-If you'd like, I can now:
 
-1. Convert the project bullets to metric-driven achievements if you paste your repo links and performance numbers.
-2. Create a one-page, ATS-friendly resume PDF focusing on Python roles (I will condense this content and format it for PDF).
-3. Extract and add certificate metadata (issuer, date) into the certificate gallery.
-
-Tell me which of the three you'd like me to do next or paste details and I'll proceed.
-
----
 
 ## Technical Skills
 
@@ -155,29 +147,7 @@ Tell me which of the three you'd like me to do next or paste details and I'll pr
 
 
 
-## Professional Experience
 
-- Senior Full-Stack Engineer — Tech Solutions Inc., Valencia (2023 - 2025)
-  - Built features used by 5,000+ users/month; reduced API latency by 30% through optimizations.
-  - Led migration to containerized deployments and implemented CI/CD with GitHub Actions.
-
-- Software Engineer — Innovatech, Caracas (2021 - 2023)
-  - Implemented payment gateway integrations and redesigned product catalog, increasing conversion by 15%.
-
-- Senior Full-Stack Engineer - Company Name, City (YYYY - YYYY)
-  - Built features used by X users/month; reduced API latency by Y% through optimizations.
-- Senior Full-Stack Engineer — Acme Corp, Valencia (2022–2024)
-  - Led development of scalable web applications used by 10,000+ monthly users; reduced API latency by 35% through backend optimizations.
-  - Migrated legacy systems to containerized deployments and implemented CI/CD pipelines with GitHub Actions, decreasing release cycle time by 40%.
-
-- Software Engineer — BetaSoft, Caracas (2020–2022)
-  - Integrated payment gateways and redesigned product catalog, increasing conversion rates by 18%.
-  - Automated data pipelines and reporting using Python and SQL, saving 12 hours/week in manual processing.
-
-- Software Engineer - Company Name, City (YYYY - YYYY)
-  - Implemented payment gateway integrations and redesigned product catalog, increasing conversion by Z%.
-
-Add your employment history and I will convert these into polished bullets with measurable outcomes.
 
 ---
 
@@ -214,14 +184,6 @@ Add your employment history and I will convert these into polished bullets with 
 - Seeking: Full-time or contract roles in software engineering or product teams
 
 ---
-
-## PDF and Export
-
-I will try to create `README_full.pdf` automatically if Pandoc or a PDF tool is available. If not, `README_full.html` will be created and you can export/print to PDF from any browser.
-
----
-
-Generated: 24 October 2025
 
 ---
 
