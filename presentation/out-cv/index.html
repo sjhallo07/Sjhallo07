@@ -62,18 +62,23 @@
             color: #2b6cb0
         }
     </style>
+    <!-- Tailwind CDN (utility-first CSS) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom preview styles -->
+    <link rel="stylesheet" href="../assets/styles.css">
 </head>
 
 <body>
     <header>
         <img src="../assets/logo.svg" alt="logo" />
+        <canvas id="hero-canvas" width="900" height="72" aria-hidden="true"></canvas>
         <div>
             <h1>Marcos Alejandro Mora Abreu</h1>
             <div class="meta">ID: 584244342107 — Valencia, Venezuela<br>GitHub: <a
                     href="https://github.com/sjhallo07">github.com/sjhallo07</a></div>
             <div class="meta">ID: 584244342107 — Valencia, Venezuela<br>GitHub: <a
                     href="https://github.com/sjhallo07">github.com/sjhallo07</a> — LinkedIn: <a
-                    href="https://linkedin.com">linkedin.com</a></div>
+                    href="https://www.linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></div>
             <div class="meta">Dirección: Calle Marte 2001, El Trigal, Valencia</div>
         </div>
     </header>
@@ -128,6 +133,30 @@ cd Sjhallo07</pre>
     <footer style="margin-top:32px;color:#718096;font-size:0.9rem">Generado automáticamente desde
         <code>presentation/CV.md</code>
     </footer>
+    <script>
+        // Simple canvas drawing for preview header
+        (function () {
+            const c = document.getElementById('hero-canvas');
+            if (!c) return;
+            const dpr = window.devicePixelRatio || 1;
+            const w = c.clientWidth, h = c.clientHeight;
+            c.width = Math.max(300, Math.floor(w * dpr));
+            c.height = Math.max(40, Math.floor(h * dpr));
+            const ctx = c.getContext('2d');
+            if (!ctx) return;
+            ctx.scale(dpr, dpr);
+            // gradient
+            const grad = ctx.createLinearGradient(0, 0, w, 0);
+            grad.addColorStop(0, 'rgba(59,130,246,0.12)');
+            grad.addColorStop(1, 'rgba(99,102,241,0.08)');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, w, h);
+            // text
+            ctx.fillStyle = '#334155';
+            ctx.font = '16px system-ui, -apple-system, Segoe UI, Roboto';
+            ctx.fillText('Sjhallo07 — CV preview', 12, Math.round(h / 2) + 6);
+        })();
+    </script>
 </body>
 
 </html>

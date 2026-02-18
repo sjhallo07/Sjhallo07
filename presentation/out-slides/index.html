@@ -1,17 +1,23 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sjhallo07 — Slides</title>
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reveal.css">
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/theme/black.css">
-  </head>
-  <body>
+    <!-- Tailwind CDN (utility-first CSS) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom preview styles -->
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+
+<body>
     <div class="reveal">
-      <div class="slides">
-        <section data-markdown>
-          <script type="text/template">
+        <div class="slides">
+            <section data-markdown>
+                <script type="text/template">
 ---
 # Presentación del repositorio `Sjhallo07`
 
@@ -208,16 +214,17 @@ decktape reveal ./out/index.html slides.pdf
 - Si quieres, genero también un PPTX exportado y capturas automáticas.
 
           </script>
-        </section>
-      </div>
+            </section>
+        </div>
     </div>
     <script src="https://unpkg.com/reveal.js@4.5.0/dist/reveal.js"></script>
     <script src="https://unpkg.com/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
     <script>
-      Reveal.initialize({
-        hash: true,
-        plugins: [ RevealMarkdown ]
-      });
+        Reveal.initialize({
+            hash: true,
+            plugins: [RevealMarkdown]
+        });
     </script>
-  </body>
+</body>
+
 </html>
