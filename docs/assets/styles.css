@@ -1,5 +1,15 @@
 /* Modernized presentation styles (docs/assets/styles.css) */
+
+/*
+  Theme system:
+  - Default: follows user's system preference (prefers-color-scheme)
+  - html.theme-light  -> force light
+  - html.theme-dark   -> force dark
+  Stored preference handled in JS (localStorage key: "site-theme").
+*/
+
 :root {
+    /* Dark theme (fallback). Overridden by media query for light systems */
     --bg: #0f1724;
     /* deep navy */
     --surface: #0b1226;
@@ -10,6 +20,48 @@
     /* violet */
     --accent-2: #06b6d4;
     /* teal */
+    --glass: rgba(255, 255, 255, 0.04);
+}
+
+/* Respect OS preference by default */
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f8fafc;
+        /* very light */
+        --surface: #ffffff;
+        --card: #ffffff;
+        --muted: #6b7280;
+        /* slate-500 */
+        --text: #0f1724;
+        /* slate-900 */
+        --accent: #6d28d9;
+        /* violet-700 */
+        --accent-2: #0891b2;
+        /* teal-600 */
+        --glass: rgba(15, 23, 36, 0.04);
+    }
+}
+
+/* Explicit theme classes override system preference */
+html.theme-light {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --card: #ffffff;
+    --muted: #6b7280;
+    --text: #0f1724;
+    --accent: #6d28d9;
+    --accent-2: #0891b2;
+    --glass: rgba(15, 23, 36, 0.04);
+}
+
+html.theme-dark {
+    --bg: #0f1724;
+    --surface: #0b1226;
+    --card: #0f172a;
+    --muted: #94a3b8;
+    --text: #e6eef8;
+    --accent: #7c3aed;
+    --accent-2: #06b6d4;
     --glass: rgba(255, 255, 255, 0.04);
 }
 
@@ -26,6 +78,7 @@ body {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color 220ms ease, color 220ms ease;
 }
 
 main {
@@ -111,6 +164,15 @@ header p {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.06);
     color: var(--text)
+}
+
+/* Light mode adjustments for ghost/button borders when background is light */
+html.theme-light .btn-ghost,
+@media (prefers-color-scheme: light) {
+    .btn-ghost {
+        border-color: rgba(15, 23, 36, 0.06);
+        color: var(--text);
+    }
 }
 
 a.card {

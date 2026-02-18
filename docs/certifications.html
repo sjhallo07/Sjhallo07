@@ -51,6 +51,8 @@
     <main>
         <header style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem">
             <img src="./assets/logo.svg" alt="logo" style="height:48px">
+            <button id="theme-toggle" class="btn btn-ghost" onclick="toggleThemeCycle()"
+                aria-label="Cambiar tema">🌗</button>
             <h1 style="margin:0">Certificaciones</h1>
         </header>
 
@@ -77,6 +79,7 @@
         <footer style="margin-top:2rem">Generado automáticamente · Carpeta <code>docs/</code></footer>
     </main>
 
+    <script src="./assets/theme.js" defer></script>
     <script>
         async function loadCerts() {
             try {

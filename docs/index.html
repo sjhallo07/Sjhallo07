@@ -13,6 +13,8 @@
     <main class="max-w-4xl mx-auto p-6">
         <header class="flex items-center gap-4 mb-6">
             <img src="./assets/logo.svg" alt="logo" class="h-12">
+            <button id="theme-toggle" class="btn btn-ghost" onclick="toggleThemeCycle()"
+                aria-label="Cambiar tema">🌗</button>
             <img src="./assets/photo.jpg" alt="Foto Marcos" class="avatar-sm">
             <div>
                 <h1 class="text-2xl font-semibold">Marcos Alejandro — Currículum</h1>
@@ -52,6 +54,7 @@
 
         <footer class="mt-10 text-xs text-gray-500">Generado desde la carpeta <code>docs/</code></footer>
     </main>
+    <script src="./assets/theme.js" defer></script>
     <script>
         (async function () {
             try {
