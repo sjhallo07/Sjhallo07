@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sjhallo07 — Presentaciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <main class="max-w-4xl mx-auto p-6">
+        <header class="flex items-center gap-4 mb-6">
+            <img src="./assets/logo.svg" alt="logo" class="h-12">
+            <div>
+                <h1 class="text-2xl font-semibold">Sjhallo07 — Presentaciones</h1>
+                <p class="text-sm text-gray-600">Accede a las presentaciones, el CV y recursos generados para este
+                    repositorio.</p>
+            </div>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./out-slides/index.html">
+                <h2 class="font-medium">Slides del repositorio</h2>
+                <p class="text-sm text-gray-500 mt-2">Deck principal para presentar el proyecto.</p>
+            </a>
+
+            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./out-skills/index.html">
+                <h2 class="font-medium">Skills & Proyectos</h2>
+                <p class="text-sm text-gray-500 mt-2">Deck enfocado en habilidades técnicas y evidencia.</p>
+            </a>
+
+            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./out-cv/index.html">
+                <h2 class="font-medium">CV (versión HTML)</h2>
+                <p class="text-sm text-gray-500 mt-2">Currículum generado desde <code>presentation/CV.md</code>.</p>
+            </a>
+        </section>
+
+        <section class="mt-8">
+            <h3 class="text-lg font-semibold">Exportar</h3>
+            <p class="text-sm text-gray-600 mt-2">Para exportar a PDF/PPTX usa las instrucciones en
+                <code>presentation/README.md</code> o abre las vistas y usa "Imprimir" del navegador. Para calidad
+                profesional recomiendo <code>decktape</code>.</p>
+        </section>
+
+        <footer class="mt-10 text-xs text-gray-500">Generado automáticamente · Carpeta <code>presentation/</code>
+        </footer>
+    </main>
+</body>
+
+</html>

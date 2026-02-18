@@ -5,7 +5,7 @@
 **ID / Cédula:** 584244342107
 **Ubicación:** Calle Marte 2001, El Trigal, Valencia, Venezuela
 **Perfil:** Desarrollador de software (full-stack / backend) — centrado en proyectos open-source y despliegues sencillos.
-**Contacto:** https://github.com/sjhallo07, https://linkedin.com
+**Contacto:** https://github.com/sjhallo07, https://www.linkedin.com/mwlite/profile/me?trk=p_mwlite_feed-secondary_nav
 
 ---
 
