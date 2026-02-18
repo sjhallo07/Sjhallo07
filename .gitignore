@@ -1,1 +1,25 @@
 out-site
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Generated docs/site thumbnails
+# (PNG thumbnails are tracked in the repo to publish via GitHub Pages)
