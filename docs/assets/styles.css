@@ -167,12 +167,13 @@ footer {
 
 /* header-specific avatar size to align with hero canvas */
 .header-avatar {
-    width: 180px;
-    height: 180px;
-    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    transition: width 220ms ease, height 220ms ease, border-radius 220ms ease;
+    transition: width 220ms ease, height 220ms ease, border-radius 220ms ease, transform 220ms ease;
+    transform: translateZ(0);
 }
 
 @media (max-width: 720px) {
@@ -181,15 +182,23 @@ footer {
     .header-avatar {
         width: 120px;
         height: 120px;
-        border-radius: 12px;
+        border-radius: 50%;
     }
 }
 
 .avatar-sm {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 1px solid rgba(255, 255, 255, 0.05)
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.35);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.avatar-sm:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 12px 30px rgba(2, 6, 23, 0.45);
+    border-color: rgba(255, 255, 255, 0.12);
 }
