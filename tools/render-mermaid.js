@@ -15,13 +15,20 @@ async function render() {
     const dom = new JSDOM('<!doctype html><html><body></body></html>');
     const win = dom.window;
     // copy window globals into Node global so mermaid/d3 can access them
+    // expose window/document/navigator to the Node global and globalThis
     global.window = win;
     global.document = win.document;
     global.navigator = win.navigator;
-    // copy other properties from window to global (safe for rendering)
+    globalThis.window = win;
+    globalThis.document = win.document;
+    globalThis.navigator = win.navigator;
+    // copy other properties from window to both global and globalThis (safe for rendering)
     Object.getOwnPropertyNames(win).forEach((p) => {
         if (typeof global[p] === 'undefined') {
             try { global[p] = win[p]; } catch (e) { /* ignore */ }
+        }
+        if (typeof globalThis[p] === 'undefined') {
+            try { globalThis[p] = win[p]; } catch (e) { /* ignore */ }
         }
     });
 
