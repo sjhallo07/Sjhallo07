@@ -167,11 +167,22 @@ footer {
 
 /* header-specific avatar size to align with hero canvas */
 .header-avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 12px;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
     object-fit: cover;
     object-position: center;
+    transition: width 220ms ease, height 220ms ease, border-radius 220ms ease;
+}
+
+@media (max-width: 720px) {
+
+    /* Reduce header avatar on small screens to avoid layout break */
+    .header-avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+    }
 }
 
 .avatar-sm {
