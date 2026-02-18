@@ -398,6 +398,31 @@ End-State Vision:
 ```markdown
 BY MONTH 12, MARCOS MORA WILL BE:
 - The world's most prolific technology creator
+
+## Sitio estático local — vistas generadas
+
+He generado una versión estática del contenido de `presentation/` en la carpeta `out-site` para poder revisar las páginas localmente.
+
+Instrucciones rápidas:
+
+1. Arranca un servidor HTTP desde la raíz del repositorio (puerto 8000):
+
+```bash
+python3 -m http.server 8000 --directory /workspaces/Sjhallo07
+```
+
+2. Abre en tu navegador las vistas (ejemplos):
+
+- Presentación principal: http://127.0.0.1:8000/out-site/presentation/index.html
+- Slides: http://127.0.0.1:8000/out-site/presentation/out-slides/index.html
+- Skills: http://127.0.0.1:8000/out-site/presentation/out-skills/index.html
+- CV (HTML): http://127.0.0.1:8000/out-site/presentation/out-cv/index.html
+- README renderizado: http://127.0.0.1:8000/out-site/README.html
+
+Notas:
+- Si Tailwind CDN no se ejecuta (por bloqueo de scripts o entornos sin JS), hay una hoja `presentation/assets/fallback.css` que proporciona estilos básicos.
+- Para limpiar los archivos generados elimina la carpeta `out-site`.
+
 - Global leader in AI-amplified innovation
 - Architect of multiple industry transformations
 - Founder of self-sustaining innovation economy
