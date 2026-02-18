@@ -2,6 +2,7 @@ out-site
 
 # Node
 node_modules/
+docs/assets/certs/
 
 # Python
 __pycache__/
