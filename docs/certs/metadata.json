@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cert-dev-front-react",
+    "title": "Developing Front-End Apps with React",
+    "description": "Certificado: curso de desarrollo frontend con React.",
+    "image": "./assets/certs/thumb-cert-dev-front-react.svg",
+    "pdf": "./assets/certs/Developing%20Front-End%20Apps%20with%20React.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-dev-front-react.svg"
+  },
+  {
+    "id": "cert-full-stack-dev",
+    "title": "Full Stack Developer",
+    "description": "Certificado Full Stack Developer.",
+    "image": "./assets/certs/thumb-cert-full-stack-dev.svg",
+    "pdf": "./assets/certs/full%20stack%20developer.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-full-stack-dev.svg"
+  },
+  {
+    "id": "cert-python",
+    "title": "Python",
+    "description": "Certificado de fundamentos de Python.",
+    "image": "./assets/certs/thumb-cert-python.svg",
+    "pdf": "./assets/certs/Python.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-python.svg"
+  },
+  {
+    "id": "cert-django-sql",
+    "title": "Django Application Development with SQL and Databases",
+    "description": "Desarrollo de aplicaciones Django y uso de bases de datos.",
+    "image": "./assets/certs/thumb-cert-django-sql.svg",
+    "pdf": "./assets/certs/Django%20Application%20Development%20with%20SQL%20and%20Databases.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-django-sql.svg"
+  },
+  {
+    "id": "cert-python-data-science",
+    "title": "Python for Data Science, AI & Development",
+    "description": "Python aplicado a ciencia de datos e IA.",
+    "image": "./assets/certs/thumb-cert-python-data-science.svg",
+    "pdf": "./assets/certs/Python%20for%20Data%20Science,%20AI%20&%20Development.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-python-data-science.svg"
+  },
+  {
+    "id": "cert-capstone",
+    "title": "Full Stack Application Development Capstone Project",
+    "description": "Proyecto capstone de desarrollo de aplicaciones full-stack.",
+    "image": "./assets/certs/thumb-cert-capstone.svg",
+    "pdf": "./assets/certs/Full%20Stack%20Application%20Development%20Capstone%20Project.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-capstone.svg"
+  },
+  {
+    "id": "cert-github",
+    "title": "Getting Started with Git and GitHub",
+    "description": "Introducción a Git y GitHub.",
+    "image": "./assets/certs/thumb-cert-github.svg",
+    "pdf": "./assets/certs/Getting%20Started%20with%20Git%20and%20GitHub.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-github.svg"
+  },
+  {
+    "id": "cert-node-express",
+    "title": "Developing Back-End Apps with Node.js and Express",
+    "description": "Desarrollo backend con Node.js y Express.",
+    "image": "./assets/certs/thumb-cert-node-express.svg",
+    "pdf": "./assets/certs/Developing%20Back-End%20Apps%20with%20Node.js%20and%20Express.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-node-express.svg"
+  },
+  {
+    "id": "cert-containers",
+    "title": "Introduction to Containers with Docker Kubernetes OpenShift",
+    "description": "Conceptos de contenedores y orquestación.",
+    "image": "./assets/certs/thumb-cert-containers.svg",
+    "pdf": "./assets/certs/Introduction%20to%20Containers%20with%20Docker%20Kubernetes%20%20OpenShift.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-containers.svg"
+  },
+  {
+    "id": "cert-web-html-css-js",
+    "title": "HTML, CSS, & JavaScript",
+    "description": "Fundamentos de desarrollo web.",
+    "image": "./assets/certs/thumb-cert-web-html-css-js.svg",
+    "pdf": "./assets/certs/HTML,%20CSS,%20&%20JavaScript.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-web-html-css-js.svg"
+  },
+  {
+    "id": "cert-excel",
+    "title": "Excel",
+    "description": "Habilidades en Microsoft Excel.",
+    "image": "./assets/certs/thumb-cert-excel.svg",
+    "pdf": "./assets/certs/Excel.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-excel.svg"
+  },
+  {
+    "id": "cert-microservices",
+    "title": "Application Development using Microservices",
+    "description": "Desarrollo de aplicaciones usando microservicios.",
+    "image": "./assets/certs/thumb-cert-microservices.svg",
+    "pdf": "./assets/certs/Application%20Development%20using%20Microservices%20and.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-microservices.svg"
+  },
+  {
+    "id": "cert-cloud",
+    "title": "Cloud Computing",
+    "description": "Conceptos de computación en la nube.",
+    "image": "./assets/certs/thumb-cert-cloud.svg",
+    "pdf": "./assets/certs/Cloud%20Computing.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-cloud.svg"
+  },
+  {
+    "id": "cert-google-ai",
+    "title": "Google Artificial Intelligence and Productivity",
+    "description": "Uso de IA y productividad con herramientas de Google.",
+    "image": "./assets/certs/thumb-cert-google-ai.svg",
+    "pdf": "./assets/certs/Google%20Artificial%20Intelligence%20and%20Productivity.pdf",
+    "verify_url": "",
+    "large": "./assets/certs/large-cert-google-ai.svg"
+  }
+]
