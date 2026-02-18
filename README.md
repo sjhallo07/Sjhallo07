@@ -399,6 +399,17 @@ End-State Vision:
 BY MONTH 12, MARCOS MORA WILL BE:
 - The world's most prolific technology creator
 
+---
+
+Sitio público
+------------
+
+Puedes ver el sitio estático generado (GitHub Pages) en:
+
+https://sjhallo07.github.io/Sjhallo07/
+
+Este sitio contiene el CV, la sección de certificaciones y las presentaciones exportadas en `docs/`.
+
 ## Sitio estático local — vistas generadas
 
 He generado una versión estática del contenido de `presentation/` en la carpeta `out-site` para poder revisar las páginas localmente.
