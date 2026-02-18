@@ -1,0 +1,194 @@
+---
+# Presentación del repositorio `Sjhallo07`
+
+_Una guía profesional y lista para presentar tu proyecto en 10–14 diapositivas_
+
+**Autor:** sjhallo07
+**Fecha:** 2026-02-18
+ 
+![Logo placeholder](assets/logo.svg)
+---
+
+## 1) Portada
+
+Sjhallo07 — Proyecto personal
+
+- Tagline: "Breve frase que describe el objetivo principal"
+- Autor: sjhallo07
+
+Nota del orador: Preséntate en 20–30s y di el objetivo de la charla.
+---
+
+## 2) Problema y motivación
+
+- ¿Qué problema resuelve este proyecto?
+- ¿Por qué importa hoy?
+- Impacto esperado (usuarios, casos de uso)
+
+Nota del orador: Usa una anécdota corta o una métrica para enganchar.
+---
+
+## 3) Qué hace el proyecto (visión general)
+
+- Elevator pitch (1 línea): qué hace y para quién
+- 2–3 bullets con funcionalidades clave
+- Resultado esperado: beneficio para el usuario
+
+Nota: Si el repo tiene un script principal, menciona el comando aquí.
+---
+
+## 4) Habilidades y tecnologías
+
+- Lenguajes: Python (avanzado), JavaScript/TypeScript (intermedio)
+- Frameworks / Herramientas: Node.js, React, Flask, Docker
+- Infra / CI: Docker, GitHub Actions, despliegue básico
+- Testing / Calidad: pytest, jest, linters
+
+Nota del orador: Menciona nivel y ejemplos concretos de uso.
+---
+
+## 5) Estructura del repositorio
+
+- `README.md` — descripción, requisitos e inicio rápido
+- `CHANGELOG.md` — historial y versiones
+- `src/` — código fuente (si existe)
+- `tests/` — pruebas automatizadas
+
+Nota: Explica en 1 línea qué contiene cada carpeta importante.
+---
+
+## 6) Instalación / Demo rápida
+
+1. Clona el repo:
+
+   git clone https://github.com/sjhallo07/Sjhallo07.git
+
+2. Ejemplo genérico (ajusta según stack):
+
+```bash
+# Node.js
+npm install
+npm start
+
+# Python (venv)
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m main
+```
+
+Nota del orador: Ejecuta la demo localmente y muestra un resultado claro en 60–90s.
+---
+
+## 7) Demo / Capturas
+
+- Muestra una demo en vivo o screenshots clave.
+- Señala 2–3 comportamientos importantes durante la demo.
+
+Nota: Si hay datos sensibles, usa fixtures o datos de ejemplo.
+---
+
+## 8) Arquitectura (Mermaid)
+ 
+![Arquitectura (simplificada)](assets/diagram_architecture1.png)
+
+Nota del orador: Explica responsabilidades y flujos en 1–2 frases.
+---
+
+## Gráficos / Esquemáticos (detallado)
+
+Diagrama esquemático de ejemplo — adapta para tu arquitectura real:
+
+![Arquitectura detallada](assets/diagram_architecture2.png)
+
+Nota: Puedo generar PNGs desde estos mermaid si necesitas imágenes estáticas.
+
+---
+
+## Gráficos renderizados (assets)
+
+Aquí tienes las versiones renderizadas de los diagramas (SVG y PNG disponibles):
+
+- Arquitectura (simplificada):
+
+   ![SVG Arquitectura](assets/diagram_architecture1.svg)
+
+   ![PNG Arquitectura](assets/diagram_architecture1.png)
+
+- Arquitectura (detallada):
+
+   ![SVG Arquitectura Detallada](assets/diagram_architecture2.svg)
+
+   ![PNG Arquitectura Detallada](assets/diagram_architecture2.png)
+
+- Flujo / Skills:
+
+   ![SVG Flujo](assets/diagram_skills.svg)
+
+   ![PNG Flujo](assets/diagram_skills.png)
+
+Nota del orador: Usa las SVG para pantallas y PNG para compatibilidad con herramientas de exportación.
+
+
+## 9) Estado, métricas y roadmap
+
+- Estado: alpha / beta / estable
+- Métricas: despliegues, tests, cobertura (si aplica)
+- Roadmap corto: próximas 3 prioridades
+
+Nota: Sé honesto y prioriza lo que aportarás en las próximas semanas.
+---
+
+## 10) Cómo contribuir
+
+- Abre issues para bugs o feature requests
+- Fork → branch → PR con descripción clara
+- Ejecuta tests antes de enviar PRs
+
+Nota: Indica si sigues un estilo de commits o normas de revisión.
+---
+
+## 11) Ejemplos concretos / evidencia
+
+- Link a commits, PRs o issues relevantes
+- Screenshots de funcionalidades o tests pasados
+
+Nota: Usa evidencia para respaldar tus claims.
+---
+
+## 12) Recursos y contacto
+
+- Repositorio: https://github.com/sjhallo07/Sjhallo07
+- README — instrucciones detalladas
+- Contacto: perfil GitHub (o email opcional)
+
+Gracias — Preguntas?
+
+---
+
+## Instrucciones rápidas para presentar y exportar
+
+- Presentar localmente con reveal-md:
+
+```bash
+npm install -g reveal-md
+reveal-md presentation/Slides.md --watch
+```
+
+- Exportar a PDF con decktape (recomendado para calidad):
+
+```bash
+npm install -g decktape
+reveal-md presentation/Slides.md --static ./out
+decktape reveal ./out/index.html slides.pdf
+```
+
+- Alternativa: abrir `reveal-md` y usar "Print to PDF" del navegador.
+
+---
+
+### Notas de personalización
+
+- Sustituye bullets genéricos por comandos/paths reales del repo antes de la demo.
+- Añade imágenes en `presentation/assets/` y referencia con `![alt](assets/logo.svg)`.
+- Si quieres, genero también un PPTX exportado y capturas automáticas.

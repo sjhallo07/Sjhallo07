@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2b6cb0" />
+    </marker>
+  </defs>
+  <rect x="20" y="30" width="140" height="60" rx="8" fill="#3182ce" />
+  <text x="90" y="65" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Usuario</text>
+
+  <rect x="220" y="30" width="140" height="60" rx="8" fill="#4a5568" />
+  <text x="290" y="65" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Frontend</text>
+
+  <rect x="420" y="30" width="160" height="60" rx="8" fill="#2b6cb0" />
+  <text x="500" y="65" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">API / Backend</text>
+
+  <rect x="620" y="10" width="140" height="40" rx="8" fill="#718096" />
+  <text x="690" y="35" font-family="Arial" font-size="13" fill="#fff" text-anchor="middle">Base de datos</text>
+
+  <rect x="620" y="90" width="140" height="40" rx="8" fill="#718096" />
+  <text x="690" y="115" font-family="Arial" font-size="13" fill="#fff" text-anchor="middle">Servicios externos</text>
+
+  <line x1="160" y1="60" x2="220" y2="60" stroke="#2b6cb0" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="360" y1="60" x2="420" y2="60" stroke="#2b6cb0" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="580" y1="50" x2="620" y2="30" stroke="#2b6cb0" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="580" y1="70" x2="620" y2="110" stroke="#2b6cb0" stroke-width="3" marker-end="url(#arrow)" />
+</svg>

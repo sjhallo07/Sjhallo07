@@ -1,0 +1,11 @@
+graph TD
+  subgraph Frontend
+    F1[UI] --> F2[Client logic]
+  end
+  subgraph Backend
+    B1[API Gateway] --> B2[Service A]
+    B2 --> B3[Service B]
+  end
+  F2 --> B1
+  B2 --> DB[(Database)]
+  B3 --> Ext[Third-party]
