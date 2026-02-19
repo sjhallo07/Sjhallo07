@@ -1,0 +1,99 @@
+/* Custom styles for presentation previews */
+/* Works with Tailwind CDN utilities and plain CSS fallback */
+
+/* Theme variables and system preference */
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f1724;
+  --muted: #6b7280;
+  --accent: #6d28d9;
+  --glass: rgba(15, 23, 36, 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1724;
+    --surface: #0b1226;
+    --text: #e6eef8;
+    --muted: #94a3b8;
+    --accent: #7c3aed;
+    --glass: rgba(255, 255, 255, 0.04);
+  }
+}
+
+html.theme-light {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f1724;
+  --muted: #6b7280;
+  --accent: #6d28d9;
+  --glass: rgba(15, 23, 36, 0.04);
+}
+
+html.theme-dark {
+  --bg: #0f1724;
+  --surface: #0b1226;
+  --text: #e6eef8;
+  --muted: #94a3b8;
+  --accent: #7c3aed;
+  --glass: rgba(255, 255, 255, 0.04);
+}
+
+/* Apply background/text using variables */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+/* Basic page tweaks */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Canvas hero: make it responsive */
+#hero-canvas {
+  display: block;
+  width: 100%;
+  height: 72px;
+  max-height: 120px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.06), rgba(99, 102, 241, 0.04));
+  box-shadow: 0 1px 4px rgba(2, 6, 23, 0.06);
+  margin-bottom: 8px;
+}
+
+/* Small utility for image logos inside headers */
+header img {
+  max-height: 48px;
+}
+
+/* Reveal.js specific tweaks (optional) */
+.reveal {
+  background: white;
+}
+
+/* Theme toggle floating button */
+.theme-btn-floating {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 0.5rem 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
+  cursor: pointer;
+}
+
+@media (max-width:720px) {
+  .theme-btn-floating {
+    top: auto;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

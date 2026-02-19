@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Application Development Using Microservices And",
+    "thumb": "thumb-application-development-using-microservices-and.png",
+    "image": "large-application-development-using-microservices-and.png",
+    "url": "./assets/certs/large-application-development-using-microservices-and.png"
+  },
+  {
+    "title": "Cert Excel",
+    "thumb": "thumb-cert-excel.svg",
+    "image": "large-cert-excel.svg",
+    "url": "./assets/certs/large-cert-excel.svg"
+  },
+  {
+    "title": "Cloud Computing",
+    "thumb": "thumb-cloud-computing.png",
+    "image": "large-cloud-computing.png",
+    "url": "./assets/certs/large-cloud-computing.png"
+  },
+  {
+    "title": "Developing Back End Apps With Node.Js And Express",
+    "thumb": "thumb-developing-back-end-apps-with-node.js-and-express.png",
+    "image": "large-developing-back-end-apps-with-node.js-and-express.png",
+    "url": "./assets/certs/large-developing-back-end-apps-with-node.js-and-express.png"
+  },
+  {
+    "title": "Developing Front End Apps With React",
+    "thumb": "thumb-developing-front-end-apps-with-react.png",
+    "image": "large-developing-front-end-apps-with-react.png",
+    "url": "./assets/certs/large-developing-front-end-apps-with-react.png"
+  },
+  {
+    "title": "Django Application Development With Sql And Databases",
+    "thumb": "thumb-django-application-development-with-sql-and-databases.png",
+    "image": "large-django-application-development-with-sql-and-databases.png",
+    "url": "./assets/certs/large-django-application-development-with-sql-and-databases.png"
+  },
+  {
+    "title": "Full Stack Application Development Capstone Project",
+    "thumb": "thumb-full-stack-application-development-capstone-project.png",
+    "image": "large-full-stack-application-development-capstone-project.png",
+    "url": "./assets/certs/large-full-stack-application-development-capstone-project.png"
+  },
+  {
+    "title": "Full Stack Developer",
+    "thumb": "thumb-full-stack-developer.png",
+    "image": "large-full-stack-developer.png",
+    "url": "./assets/certs/large-full-stack-developer.png"
+  },
+  {
+    "title": "Getting Started With Git And Github",
+    "thumb": "thumb-getting-started-with-git-and-github.png",
+    "image": "large-getting-started-with-git-and-github.png",
+    "url": "./assets/certs/large-getting-started-with-git-and-github.png"
+  },
+  {
+    "title": "Google Artificial Intelligence And Productivity",
+    "thumb": "thumb-google-artificial-intelligence-and-productivity.png",
+    "image": "large-google-artificial-intelligence-and-productivity.png",
+    "url": "./assets/certs/large-google-artificial-intelligence-and-productivity.png"
+  },
+  {
+    "title": "Html Css  Javascript",
+    "thumb": "thumb-html--css----javascript.png",
+    "image": "large-html--css----javascript.png",
+    "url": "./assets/certs/large-html--css----javascript.png"
+  },
+  {
+    "title": "Introduction To Containers With Docker Kubernetes Openshift",
+    "thumb": "thumb-introduction-to-containers-with-docker-kubernetes--openshift.png",
+    "image": "large-introduction-to-containers-with-docker-kubernetes--openshift.png",
+    "url": "./assets/certs/large-introduction-to-containers-with-docker-kubernetes--openshift.png"
+  },
+  {
+    "title": "Python For Data Science Ai  Development",
+    "thumb": "thumb-python-for-data-science--ai---development.png",
+    "image": "large-python-for-data-science--ai---development.png",
+    "url": "./assets/certs/large-python-for-data-science--ai---development.png"
+  },
+  {
+    "title": "Python",
+    "thumb": "thumb-python.png",
+    "image": "large-python.png",
+    "url": "./assets/certs/large-python.png"
+  }
+]
