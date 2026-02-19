@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Certificados — Sjhallo07</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/fallback.css">
+</head>
+
+<body>
+    <main class="max-w-4xl mx-auto p-6">
+        <header class="flex items-center gap-4 mb-6">
+            <img src="./assets/logo.svg" alt="logo" class="h-12">
+            <div>
+                <h1 class="text-2xl font-semibold">Certificados / Credenciales</h1>
+                <p class="text-sm text-gray-600">Miniaturas y enlaces a tus certificados. Coloca imágenes en
+                    <code>assets/certs/</code>.
+                </p>
+            </div>
+            <button id="theme-toggle" aria-label="Cambiar tema" class="ml-auto p-2 rounded border">🌗</button>
+        </header>
+
+        <section id="cert-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <!-- Thumbnails will be injected here -->
+        </section>
+
+        <section class="mt-6 text-sm text-gray-600">
+            <p>Si quieres que las miniaturas se generen automáticamente, copia los archivos PNG/JPG a
+                <code>assets/certs/</code> con nombres legibles (por ejemplo <code>thumb-cert-name.png</code>).
+            </p>
+        </section>
+
+        <footer class="mt-10 text-xs text-gray-500">Carpeta <code>presentation/</code></footer>
+    </main>
+
+    <script src="./assets/theme.js" defer></script>
+    <script>
+        (async function () {
+            const container = document.getElementById('cert-grid');
+            try {
+                // Try to load a local metadata file (optional)
+                const res = await fetch('./assets/certs/metadata.json');
+                if (res.ok) {
+                    const data = await res.json();
+                    data.forEach(c => {
+                        const a = document.createElement('a');
+                        a.href = c.url || '#';
+                        a.className = 'block p-2 bg-white rounded-lg shadow';
+                        a.innerHTML = `<img src="./assets/certs/${c.thumb || c.image}" alt="${c.title}" style="width:100%;height:140px;object-fit:cover;border-radius:8px" /><div class="mt-2 font-medium">${c.title}</div>`;
+                        container.appendChild(a);
+                    });
+                    return;
+                }
+            } catch (e) { /* ignore */ }
+
+            // Fallback: list files under assets/certs/ by trying a few common names
+            const guesses = ['thumb-1.png', 'thumb-2.png', 'cert-1.png'];
+            guesses.forEach((n, i) => {
+                const img = new Image();
+                img.src = `./assets/certs/${n}`;
+                img.onload = () => {
+                    const a = document.createElement('div');
+                    a.className = 'block p-2 bg-white rounded-lg shadow';
+                    a.innerHTML = `<img src="./assets/certs/${n}" alt="cert-${i}" style="width:100%;height:140px;object-fit:cover;border-radius:8px" />`;
+                    container.appendChild(a);
+                };
+            });
+        })();
+    </script>
+</body>
+
+</html>
