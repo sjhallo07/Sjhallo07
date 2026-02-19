@@ -9,50 +9,46 @@
     <link rel="stylesheet" href="./assets/fallback.css">
 </head>
 
-<body class="bg-gray-50 text-gray-800">
-    <main class="max-w-4xl mx-auto p-6">
-        <header class="flex items-center gap-4 mb-6">
-            <img src="./assets/logo.svg" alt="logo" class="h-12">
-            <button id="theme-toggle" class="btn btn-ghost" onclick="toggleThemeCycle()"
-                aria-label="Cambiar tema">🌗</button>
-            <img src="./assets/photo.jpg" alt="Foto Marcos" class="avatar-sm">
-            <div>
-                <h1 class="text-2xl font-semibold">Marcos Alejandro — Currículum</h1>
-                <p class="text-sm text-gray-600">Landing con acceso rápido a CV, Skills y Slides.</p>
+<body>
+    <main>
+        <header>
+            <img src="./assets/logo.svg" alt="logo" class="logo">
+            <div style="flex:1; min-width:0">
+                <h1>Marcos Alejandro — Currículum</h1>
+                <p class="muted">Landing con acceso rápido a CV, Skills y Slides.</p>
             </div>
+            <button id="theme-toggle" class="btn btn-ghost" aria-label="Cambiar tema">🌗</button>
+            <img src="./assets/photo.jpg" alt="Foto Marcos" class="header-avatar">
         </header>
 
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./cv.html" target="_blank">
-                <h2 class="font-medium">CV (HTML)</h2>
-                <p class="text-sm text-gray-500 mt-2">Versión HTML del currículum.</p>
+        <section class="grid-cards">
+            <a class="card" href="./cv.html" target="_blank">
+                <h2>CV (HTML)</h2>
+                <p class="muted">Versión HTML del currículum.</p>
             </a>
 
-            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./skills.html"
-                target="_blank">
-                <h2 class="font-medium">Skills & Proyectos</h2>
-                <p class="text-sm text-gray-500 mt-2">Deck con habilidades y evidencia técnica.</p>
+            <a class="card" href="./skills.html" target="_blank">
+                <h2>Skills & Proyectos</h2>
+                <p class="muted">Deck con habilidades y evidencia técnica.</p>
             </a>
 
-            <a class="block p-4 bg-white rounded-lg shadow hover:shadow-md transition" href="./slides.html"
-                target="_blank">
-                <h2 class="font-medium">Slides del repositorio</h2>
-                <p class="text-sm text-gray-500 mt-2">Guía para presentar el proyecto.</p>
+            <a class="card" href="./slides.html" target="_blank">
+                <h2>Slides del repositorio</h2>
+                <p class="muted">Guía para presentar el proyecto.</p>
             </a>
         </section>
 
-        <section class="mt-8">
-            <h3 class="text-lg font-semibold">Certificados / Credentials</h3>
-            <p class="text-sm text-gray-600 mt-2">Vista rápida de certificados (miniaturas). Haz click en "Ver todos"
-                para la galería grande.</p>
-            <div id="mini-certs" class="grid grid-cols-3 gap-3 mt-3"></div>
-            <div class="mt-3">
+        <section style="margin-top:1.5rem">
+            <h3>Certificados / Credentials</h3>
+            <p class="muted">Vista rápida de certificados (miniaturas). Haz click en "Ver todos" para la galería grande.</p>
+            <div id="mini-certs" class="grid-cards" style="margin-top:0.75rem"></div>
+            <div style="margin-top:.75rem">
                 <a class="btn btn-primary" href="./certifications.html">Ver lista</a>
                 <a class="btn btn-ghost" href="./certs-gallery.html">Ver galería</a>
             </div>
         </section>
 
-        <footer class="mt-10 text-xs text-gray-500">Generado desde la carpeta <code>docs/</code></footer>
+        <footer>Generado desde la carpeta <code>docs/</code></footer>
     </main>
     <script src="./assets/theme.js" defer></script>
     <script>
@@ -64,18 +60,19 @@
                 data.slice(0, 6).forEach(c => {
                     const a = document.createElement('a');
                     a.href = './certifications.html';
-                    a.className = 'block p-2 bg-white rounded-lg shadow hover:shadow-md transition flex items-center gap-3';
+                    a.className = 'card';
+                    a.style.display = 'flex';
+                    a.style.alignItems = 'center';
+                    a.style.gap = '12px';
                     a.innerHTML = `
-                            <img src="${c.image}" alt="${c.title}" style="width:56px;height:56px;object-fit:cover;border-radius:8px"/>
-                            <div style="flex:1">
-                                <div style="font-weight:600">${c.title}</div>
-                                <div class="muted" style="font-size:.85rem">${c.description}</div>
-                            </div>`;
+                        <img src="${c.image}" alt="${c.title}" style="width:56px;height:56px;object-fit:cover;border-radius:8px"/>
+                        <div style="flex:1;min-width:0">
+                            <div style="font-weight:600">${c.title}</div>
+                            <div class="muted" style="font-size:.85rem">${c.description}</div>
+                        </div>`;
                     container.appendChild(a);
                 });
             } catch (e) { console.error(e) }
         })();
     </script>
 </body>
-
-</html>
